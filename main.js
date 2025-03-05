@@ -1,19 +1,18 @@
-var dedns = "38.175.197.10";
-var nydns = "66.94.105.229";
-var idkdns = "213.109.163.210";
-var lastdns = "92.60.37.102";
+var dedns = "167.86.91.171";
+var nydns = "66.23.198.252";
+var nulldns = "0.0.0.0";
 document
 	.getElementById("ip1")
-	.value = dedns;
-document
-	.getElementById("ip2")
 	.value = nydns;
 document
+	.getElementById("ip2")
+	.value = dedns;
+document
 	.getElementById("ip3")
-	.value = idkdns;
+	.value = nulldns;
 document
 	.getElementById("ip4")
-	.value = lastdns;
+	.value = nulldns;
 
 /*
 var proxysettings=document.getElementById("proxysettings");
